@@ -2,6 +2,7 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000209
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.0/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -24,8 +25,8 @@ assetsSummary:
     schemaKey: SpeciesType
   variableMeasured:
   - ProcessingModule
-citation: Wakeman, Wayne (2022) 20211223_AIBS_Patchseq_human (Version draft) [Data
-  set]. DANDI archive. https://dandiarchive.org/dandiset/000209/draft
+citation: Wakeman, Wayne; Kalmbach, Brian; Lein, Ed; Chartrand, Thomas (2022) 20211223_AIBS_Patchseq_human
+  (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000209/draft
 contributor:
 - affiliation: []
   email: waynew@alleninstitute.org
@@ -34,15 +35,64 @@ contributor:
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
+- affiliation: []
+  email: briank@alleninstitute.org
+  includeInCitation: true
+  name: Kalmbach, Brian
+  roleName:
+  - dcite:ContactPerson
+  schemaKey: Person
+- affiliation: []
+  email: EdL@alleninstitute.org
+  includeInCitation: true
+  name: Lein, Ed
+  roleName:
+  - dcite:ProjectLeader
+  schemaKey: Person
+- affiliation: []
+  email: tom.chartrand@alleninstitute.org
+  includeInCitation: true
+  name: Chartrand, Thomas
+  roleName:
+  - dcite:ContactPerson
+  schemaKey: Person
+- awardNumber: U01MH114812
+  contactPoint:
+  - schemaKey: ContactPoint
+  identifier: https://ror.org/00dcv1019
+  includeInCitation: false
+  name: Allen Institute for Brain Science
+  roleName: []
+  schemaKey: Organization
+- awardNumber: U01MH114812
+  contactPoint: []
+  includeInCitation: false
+  name: National Institute of Mental Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2021-12-21T19:50:19.326743+00:00'
 description: U01 Lein PatchSeq upload December 2021
+ethicsApproval: []
 id: DANDI:000209/draft
 identifier: DANDI:000209
+keywords:
+- Patch-seq
+- human
+- neocortical
+license:
+- spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000209/versions/draft/assets/
 name: 20211223_AIBS_Patchseq_human
-repository: https://dandiarchive.org/
+protocol:
+- https://www.protocols.io/view/patch-seq-recording-and-extraction-bepyjdpw
+relatedResource: []
+repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.0
+studyTarget:
+- human neocortical neurons
 url: https://dandiarchive.org/dandiset/000209/draft
 version: draft
+wasGeneratedBy: []
