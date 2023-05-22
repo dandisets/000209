@@ -73,6 +73,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2021-12-21T19:50:19.326743+00:00'
+datePublished: '2023-05-22T19:18:32.264216+00:00'
 description: U01 Lein PatchSeq upload December 2021
 ethicsApproval: []
 id: DANDI:000209/draft
@@ -88,6 +89,18 @@ manifestLocation:
 name: 20211223_AIBS_Patchseq_human
 protocol:
 - https://www.protocols.io/view/patch-seq-recording-and-extraction-bepyjdpw
+publishedBy:
+  endDate: '2023-05-22T19:18:32.264216+00:00'
+  id: urn:uuid:75795e18-e1e2-4ff9-9d07-f7e71b975aa6
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2023-05-22T19:18:32.264216+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:ab77b518-66dc-46fe-8432-c9f5f4b0f449
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
